@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SET - High-End Präzisionsfertigung & Senkerodiertechnik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern tech typography: Orbitron for tech feel, or just a very clean bold Inter/Roboto.
+         Inter is perfect for high-end bold & modern. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <a href="#">SET<span class="text-accent">.</span></a>
+            </div>
+            <nav class="nav-links">
+                <a href="#leistungen">Leistungen</a>
+                <a href="#prozess">Prozess</a>
+                <a href="#warum-wir">Warum wir?</a>
+                <a href="#kontakt">Kontakt</a>
+                <a href="#kontakt" class="btn btn-outline nav-btn">CAD Upload</a>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Menü">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-glow"></div>
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <div class="tech-badge">HIGH-END FERTIGUNGSPARTNER</div>
+                <h1 class="hero-title">Präzision, wenn andere an ihre Grenzen kommen.</h1>
+                <p class="hero-subtitle">Wir fertigen komplexe Bauteile im Mikrometerbereich – schnell, präzise und kompromisslos.</p>
+                <div class="hero-actions">
+                    <a href="#kontakt" class="btn btn-primary">
+                        Projekt anfragen
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#kontakt" class="btn btn-secondary">CAD-Datei hochladen</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal fade-left">
+                <div class="visual-wrapper">
+                    <div class="visual-glow"></div>
+                    <img src="images/hero.png" alt="Erodieren Funken High-Tech" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+        <div class="container trust-grid">
+            <div class="trust-item reveal fade-up">
+                <span class="trust-value">µm</span>
+                <span class="trust-label">Präzision garantiert</span>
+            </div>
+            <div class="trust-item reveal fade-up delay-1">
+                <span class="trust-value">25+</span>
+                <span class="trust-label">Jahre Erfahrung</span>
+            </div>
+            <div class="trust-item reveal fade-up delay-2">
+                <span class="trust-value">500+</span>
+                <span class="trust-label">Erfolgreiche Projekte</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROBLEM SECTION -->
+    <section class="section section-challenges" id="herausforderungen">
+        <div class="container">
+            <h2 class="section-title reveal text-center">Die größten Herausforderungen in der Fertigung</h2>
+            
+            <div class="challenge-grid">
+                <div class="challenge-item reveal fade-up">
+                    <div class="challenge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="challenge-title">Präzision im µm Bereich</h3>
+                        <p class="challenge-text">Wir meistern Toleranzen, an denen Standardmaschinen scheitern.</p>
+                    </div>
+                </div>
+                <div class="challenge-item reveal fade-up delay-1">
+                    <div class="challenge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="challenge-title">Komplexe Geometrien</h3>
+                        <p class="challenge-text">Freiformflächen und hinterschnittige Details mit kompromissloser Güte.</p>
+                    </div>
+                </div>
+                <div class="challenge-item reveal fade-up delay-2">
+                    <div class="challenge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="challenge-title">Zeitkritische Projekte</h3>
+                        <p class="challenge-text">Wenn Time-to-Market entscheidet, liefern wir sofortige Ergebnisse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEISTUNGEN -->
+    <section class="section section-dark" id="leistungen">
+        <div class="container">
+            <h2 class="section-title reveal">Unsere Leistungen</h2>
+            
+            <div class="services-grid">
+                <!-- Senkerodieren -->
+                <a href="#kontakt" class="service-card reveal">
+                    <div class="service-image-wrap">
+                        <img src="images/hero.png" alt="Senkerodieren">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Senkerodieren</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </a>
+                
+                <!-- Werkzeugbau -->
+                <a href="#kontakt" class="service-card reveal delay-1">
+                    <div class="service-image-wrap">
+                        <img src="images/precision.png" alt="Werkzeugbau">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Werkzeugbau</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </a>
+                
+                <!-- Maschinenpark -->
+                <a href="#kontakt" class="service-card reveal delay-2">
+                    <div class="service-image-wrap">
+                        <img src="images/machines.png" alt="Maschinenpark">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Serienfertigung & Maschinenpark</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROZESS -->
+    <section class="section" id="prozess">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Der Prozess</h2>
+            
+            <div class="timeline reveal fade-up">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <h4>Anfrage</h4>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <h4>Analyse</h4>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h4>Produktion</h4>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h4>Qualitätssicherung</h4>
+                </div>
+                
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    </div>
+                    <h4>Lieferung</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EIN BLICK IN UNSEREN MASCHINENPARK -->
+    <section class="section section-darker" id="fertigung">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Ein Blick in unseren Maschinenpark</h2>
+            
+            <div class="services-grid">
+                <!-- Karte 1 -->
+                <div class="service-card reveal">
+                    <div class="service-image-wrap blend-bg-wrap">
+                        <img src="images/machine_new_1.png" alt="Maschinenpark" class="blend-multiply">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>G800</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </div>
+                
+                <!-- Karte 2 -->
+                <div class="service-card reveal delay-1">
+                    <div class="service-image-wrap blend-bg-wrap">
+                        <img src="images/machine_new_2.png" alt="Präzisionsbauteile" class="blend-multiply">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>GANTRY EAGLE 500</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </div>
+                
+                <!-- Karte 3 -->
+                <div class="service-card reveal delay-2">
+                    <div class="service-image-wrap blend-bg-wrap">
+                        <img src="images/machine_new_3.png" alt="Fertigung & Prozesse" class="blend-multiply">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>GANTRY EAGLE 800</h3>
+                        <div class="service-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="service-glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP / WARUM WIR -->
+    <section class="section section-darker" id="warum-wir">
+        <div class="container">
+            <span class="tech-badge reveal text-center mx-auto mb-2">DIFFERENZIERUNG</span>
+            <h2 class="section-title text-center reveal mb-5">Warum wir?</h2>
+            
+            <div class="statement-list">
+                <div class="statement reveal fade-up">
+                    <div class="statement-accent">01</div>
+                    <h3 class="statement-title">Extreme Präzision.</h3>
+                    <p class="statement-text">Wir fertigen absolut maßhaltig – jedes Mal. Keine Kompromisse bei Toleranzen.</p>
+                </div>
+                <div class="statement reveal fade-up delay-1">
+                    <div class="statement-accent">02</div>
+                    <h3 class="statement-title">Komplexe Bauteile.</h3>
+                    <p class="statement-text">Unsere Technologie löst Geometrien, wo konventionelle Zerspanung aufgibt.</p>
+                </div>
+                <div class="statement reveal fade-up delay-2">
+                    <div class="statement-accent">03</div>
+                    <h3 class="statement-title">Schnelle Umsetzung.</h3>
+                    <p class="statement-text">Agile Prozesse sichern Ihren Time-to-Market-Vorteil ohne Qualitätsverlust.</p>
+                </div>
+                <div class="statement reveal fade-up delay-3">
+                    <div class="statement-accent">04</div>
+                    <h3 class="statement-title">Persönliche Betreuung.</h3>
+                    <p class="statement-text">Technischer Austausch von Ingenieur zu Ingenieur für optimale Ergebnisse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRANCHEN / INDUSTRIEN -->
+    <section class="section section-dark" id="branchen">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Branchen, für die wir fertigen</h2>
+            <p class="text-center text-muted mb-5 reveal mx-auto" style="max-width: 650px; font-size: 1.1rem; line-height: 1.6;">
+                Präzise Senkerodiertechnik und anspruchsvolle Fertigungslösungen für spezialisierte Industrien mit höchsten Anforderungen.
+            </p>
+            
+            <div class="industry-grid">
+                <!-- 1. Automobil -->
+                <div class="industry-card reveal fade-up">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 16h14M3 10l3-5h12l3 5M2 14v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2zM7 16v4M17 16v4"/></svg>
+                    </div>
+                    <h3>Automobil</h3>
+                    <p>Präzisionskomponenten und Erodierlösungen für höchste Anforderungen in der Automobilindustrie.</p>
+                </div>
+                
+                <!-- 2. Raumfahrt -->
+                <div class="industry-card reveal fade-up delay-1">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21.5 2.5a18.4 18.4 0 0 1-5.6 10.4l-4.2-4.2A18.4 18.4 0 0 1 22 2.5z"></path><path d="M11 15 2.5 21.5a1.8 1.8 0 0 0 2.5 2.5L11.5 15"></path><path d="M15 11l-4.5 4.5"></path><path d="M6.5 9.5a14 14 0 0 1-4-7h5c1.4 0 2.8.5 3.9 1.4"></path><path d="M9.5 6.5a14 14 0 0 0-7-4v5c0 1.4.5 2.8 1.4 3.9"></path></svg>
+                    </div>
+                    <h3>Raumfahrt</h3>
+                    <p>Hochpräzise Fertigung für komplexe Bauteile mit maximalen Ansprüchen an Genauigkeit und Material.</p>
+                </div>
+                
+                <!-- 3. Elektroindustrie -->
+                <div class="industry-card reveal fade-up delay-2">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                    </div>
+                    <h3>Elektroindustrie</h3>
+                    <p>Feinste Strukturen und präzise Bearbeitung für technische Anwendungen in der Elektroindustrie.</p>
+                </div>
+                
+                <!-- 4. Formen- und Werkzeugbau -->
+                <div class="industry-card reveal fade-up">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon><path d="M12 2v20"></path><path d="M2 13.5h20"></path></svg>
+                    </div>
+                    <h3>Formen- und Werkzeugbau</h3>
+                    <p>Präzise Senkerodiertechnik für komplexe Formen, Werkzeuge und anspruchsvolle Geometrien.</p>
+                </div>
+                
+                <!-- 5. Oel- und Gasindustrie -->
+                <div class="industry-card reveal fade-up delay-1">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+                    </div>
+                    <h3>Öl- und Gasindustrie</h3>
+                    <p>Robuste und präzise gefertigte Komponenten für anspruchsvolle Einsatzbereiche in der Energieindustrie.</p>
+                </div>
+                
+                <!-- 6. Getränke- und Nahrungsmittel -->
+                <div class="industry-card reveal fade-up delay-2">
+                    <div class="industry-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>Getränke- und Nahrungsmittelindustrie</h3>
+                    <p>Präzise gefertigte Bauteile für hygienische, zuverlässige und langlebige Produktionsumgebungen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BLOCK -->
+    <section class="section-cta reveal">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-glow-bg"></div>
+                <h2 class="cta-title">Lassen Sie Ihr Bauteil prüfen.</h2>
+                <p class="cta-sub">Schnell. Unverbindlich. Präzise.</p>
+                <div class="hero-actions cta-actions">
+                    <a href="#kontakt" class="btn btn-primary">Anfrage starten</a>
+                    <a href="#kontakt" class="btn btn-secondary">Datei hochladen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section" id="kontakt">
+        <div class="container contact-grid">
+            <div class="contact-info reveal fade-right">
+                <h2 class="section-title">Bereit für den Start?</h2>
+                <p class="contact-desc">Kontaktieren Sie uns direkt oder laden Sie Ihre CAD-Daten sicher über unser Portal hoch.</p>
+                
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div>
+                            <h5>Telefon</h5>
+                            <p>+49 (0) 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div>
+                            <h5>E-Mail</h5>
+                            <p>anfrage@set-high-end.de</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div>
+                            <h5>Standort</h5>
+                            <p>Präzisionspark 1<br>78901 Technologiestadt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrap reveal fade-left">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Dies ist eine Demo.');">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Ihr Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Unternehmen</label>
+                            <input type="text" placeholder="Firma GmbH">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>E-Mail</label>
+                        <input type="email" placeholder="info@firma.de">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>CAD-Datei Upload (Drag & Drop)</label>
+                        <div class="file-upload-area" id="dropArea">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="upload-icon" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                            <p>Dateien hier ablegen oder <span>durchsuchen</span></p>
+                            <span class="upload-hint">Unterstützte Formate: STEP, IGES, STL (max. 50MB)</span>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Anfrage senden
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">SET<span class="text-accent">.</span></div>
+                <p>High-End Fertigungspartner für komplexe Anwendungen.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutz</a>
+                <a href="#">AGB</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
