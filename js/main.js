@@ -126,3 +126,46 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// --- MODAL & ACCORDION SYSTEM ---
+function openModal(id) {
+    const modal = document.getElementById(id);
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden'; 
+    }
+}
+
+function closeModal(event, element) {
+    if (event.target === element) {
+        element.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+function closeModalBtn(btnElement) {
+    const modal = btnElement.closest('.modal-overlay');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+function toggleMachine(headerElement) {
+    const parent = headerElement.closest('.machine-item');
+    const wasActive = parent.classList.contains('active');
+    
+    // Close others
+    const allItems = headerElement.closest('.modal-content').querySelectorAll('.machine-item');
+    allItems.forEach(item => {
+        item.classList.remove('active');
+        const icon = item.querySelector('.machine-icon');
+        if (icon) icon.style.transform = 'rotate(0deg)';
+    });
+
+    if (!wasActive) {
+        parent.classList.add('active');
+        const icon = headerElement.querySelector('.machine-icon');
+        if (icon) icon.style.transform = 'rotate(180deg)';
+    }
+}
