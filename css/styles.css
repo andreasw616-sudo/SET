@@ -1310,6 +1310,24 @@ h1, h2, h3, h4, h5 {
 .delay-2 { transition-delay: 0.2s; }
 .delay-3 { transition-delay: 0.3s; }
 
+.machine-card-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.btn-download:hover {
+  background-color: #a30707; /* brighter red */
+  box-shadow: 0 0 15px rgba(127, 4, 4, 0.4);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .hero-grid, .contact-grid { grid-template-columns: 1fr; gap: 4rem; }
