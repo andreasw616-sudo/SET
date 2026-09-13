@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / Tooling
+.vscode/
+.idea/
+*.swp
+
+# Unbearbeitete Quellbilder (nur lokales Archiv)
+images/_src-*
+
+# Von Claude erzeugte Vorschau-Dateien
+Claude outputs/
