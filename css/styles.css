@@ -180,10 +180,9 @@ h1, h2, h3, h4, h5 {
   font-size: 2.25rem;
   font-weight: 900;
   letter-spacing: 0.01em;
-  color: var(--accent-logo);
+  color: var(--text-pure);
   line-height: 0.95;
   text-transform: uppercase;
-  text-shadow: 0 0 24px rgba(212, 20, 20, 0.35);
   padding-bottom: 7px;
   border-bottom: 3px solid var(--accent-logo);
 }
